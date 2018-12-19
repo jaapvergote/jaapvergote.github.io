@@ -1,0 +1,106 @@
+/* ------------ Title --------- */
+
+.headshot {
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 50%;
+    background-clip: padding-box;
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+}
+
+
+body {
+  font-family: Lato;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 7%;
+}
+
+.row {
+  width: 100%;
+}
+
+#column1 {
+  float: left;
+  width: 47%;
+
+}
+
+#column2 {
+  float: right;
+  width: 47%;
+}
+
+.introtext {
+  font-weight: 300;
+}
+
+.title {
+  display: inline-block;
+  text-align: center;
+  font-weight: 400;
+}
+
+.work a {
+  color: black;
+}
+
+.giveask {
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+/* ------------ Social Icons ---------- */
+
+.social-icons {
+  text-align: center;
+  }
+
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+
+.social-icons li a {
+  border-bottom: none;
+  }
+
+.social-icons li img {
+  width:25px;
+  height:25px;
+  margin-right: 20px;
+}
+
+
+/* ------------ Twitterfeed --------- */
+.twitterwidget {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.twitter-timeline {
+  max-width: 800px;
+  display: inline-block;
+}
+/* ------------ Responsive --------- */
+
+@media only screen and (max-width: 767px)
+{
+    #column1, #column2
+    {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+}
