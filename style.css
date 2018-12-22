@@ -81,17 +81,19 @@ body {
 
 
 /* ------------ Twitterfeed --------- */
+/*
 .twitterwidget {
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
 }
 
+
 .twitter-timeline {
   max-width: 800px;
   display: inline-block;
 }
-
+*/
 .feeds {
   width: 100%;
 }
