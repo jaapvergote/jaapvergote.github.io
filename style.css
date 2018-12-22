@@ -91,6 +91,20 @@ body {
   max-width: 800px;
   display: inline-block;
 }
+
+.feeds {
+  width: 100%;
+}
+
+#twitter {
+  float: left;
+  width: 47%;
+
+}
+
+#medium {
+  float: right;
+  width: 47%;
 /* ------------ Responsive --------- */
 
 @media only screen and (max-width: 767px)
