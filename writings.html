@@ -24,38 +24,25 @@
 
     <div class="topnav" id="myTopnav">
       <a class="active" href="https://jaapvergote.com/">Home</a>
-      <a href="#news">Writing</a>
-      <a href="#news">Reading</a>
+      <a href="https://jaapvergote.com/books">Reading List</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
       <script type="text/javascript">
       /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-var x = document.getElementById("myTopnav");
-if (x.className === "topnav") {
-  x.className += " responsive";
-} else {
-  x.className = "topnav";
-}
-}
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
       </script>
     </div>
-  </head>
 
-  <body>
-    <div id="fm-medium-embed"></div>
-
-<script src="//data.feedmirror.com/embed.js"></script>
-<script>
-  var fmSettings = {
-    feedURL: 'https://data.feedmirror.com/-LUMdTK3DMEmUj4QqRlb.json',
-    integration: 'medium-embed',
-    linkOutText: 'Read more',
-    linkToMediumProfileText: 'Subscribe on Medium',
-    postsCount: 3,
-    element: 'fm-medium-embed'
-  };
-  feedmirror.initialize(fmSettings);
-</script>
-  </body>
+    <div class="booklist">
+      <ul>
+        <li></li>
+      </ul>
+    </div>
