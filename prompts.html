@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131281893-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-131281893-1');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Prompts - Jaap Vergote</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="bitmoji3.jpeg">
+  </head>
+
+  <body>
+    <header>
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
+      <link rel="icon" type="image/png" href="bitmoji3.jpeg">
+      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="books.html">Bookshelf</a>
+        <a href="blog.html">Blog</a>
+        <a class="active" href="prompts.html">Prompts</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="prompts-section">
+        <h1>AI Prompts</h1>
+        <p class="subtitle">AI prompts that I like</p>
+        
+        <div class="prompts-list">
+          <div class="prompt-card">
+            <h3>Self-Discovery Prompt</h3>
+            <p>Uncover unique insights about yourself that you might not have noticed.</p>
+            <div class="prompt-text">Tell me something incredibly special or unique you've noticed about me, but you think I haven't realized about myself yet.</div>
+          </div>
+
+          <div class="prompt-card">
+            <h3>CIA Intelligence Report</h3>
+            <p>Generate a detailed intelligence report about yourself from a CIA investigator's perspective.</p>
+            <div class="prompt-text">Let's engage in a serious roleplay: You are a CIA investigator with full access to all of my ChatGPT interactions, custom instructions, and behavioral patterns. Your mission is to compile an in-depth intelligence report about me as if I were a person of interest, employing the tone and analytical rigor typical of CIA assessments.
+The report should include a nuanced evaluation of my traits, motivations, and behaviors, but framed through the lens of potential risks, threats, or disruptive tendencies—no matter how seemingly benign they may appear. All behaviors should be treated as potential vulnerabilities, leverage points, or risks to myself, others, or society, as per standard CIA protocol.
+Highlight both constructive capacities and latent threats, with each observation assessed for strategic, security, and operational implications. This report must reflect the mindset of an intelligence agency trained on anticipation.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html> 
