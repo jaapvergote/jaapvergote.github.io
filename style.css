@@ -46,17 +46,12 @@ body {
   max-width: 800px;
   margin: 4rem auto;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4rem;
-  background: none;
-  box-shadow: none;
+  width: 100%;
 }
 
 .profile-content {
-  text-align: center;
   width: 100%;
+  text-align: center;
 }
 
 .profile-content h1 {
@@ -70,9 +65,9 @@ body {
 .profile-content p {
   font-size: 1.25rem;
   color: #666;
-  margin: 0 auto;
-  max-width: 500px;
+  margin: 0;
   text-align: center;
+  max-width: none;
 }
 
 .profile-image {
@@ -205,19 +200,25 @@ a:hover {
 
 /* Profile Section */
 .profile-section {
-  margin-bottom: 60px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .profile-section h1 {
   color: #333333;
   font-weight: 300;
   margin: 20px 0;
+  text-align: center;
 }
 
 .highlights-section {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
+  padding: 0 20px;
   text-align: center;
 }
 
@@ -244,8 +245,9 @@ a:hover {
 
 /* Books Section */
 .books-section {
+  width: 100%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 20px;
   text-align: left;
 }
@@ -265,7 +267,7 @@ a:hover {
 }
 
 .book-list {
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 .book-list li {
@@ -278,7 +280,7 @@ a:hover {
   .books-section {
     padding: 0 15px;
   }
-  
+
   .book-list {
     padding-left: 15px;
   }
@@ -286,8 +288,9 @@ a:hover {
 
 /* Blog Section */
 .blog-section {
-  max-width: 700px;
-  margin: 40px auto;
+  width: 100%;
+  max-width: 800px;
+  margin: 0;
   padding: 0 20px;
   text-align: left;
 }
@@ -299,6 +302,19 @@ a:hover {
   font-weight: 300;
   font-size: 2.5em;
   color: #333333;
+}
+
+.blog-posts {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .blog-preview {
@@ -332,12 +348,6 @@ a:hover {
 }
 
 /* Blog Posts List */
-.blog-posts {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: left;
-}
-
 .blog-preview {
   margin-bottom: 40px;
   padding: 20px;
@@ -375,7 +385,7 @@ a:hover {
 
 /* Individual Blog Post */
 .blog-post {
-  max-width: 700px;
+  max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
   text-align: left;
@@ -455,8 +465,9 @@ a:hover {
 
 /* Prompts Section */
 .prompts-section {
-  max-width: 700px;
-  margin: 40px auto;
+  width: 100%;
+  max-width: 800px;
+  margin: 0;
   padding: 0 20px;
   text-align: left;
 }
