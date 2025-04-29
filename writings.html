@@ -22,22 +22,16 @@
 
 
     <div class="topnav" id="myTopnav">
-      <a class="active" href="https://jaapvergote.com/">Home</a>
-      <a href="https://jaapvergote.com/books">Reading List</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="index.html">Home</a>
+      <a href="now.html">Now</a>
+      <a href="about.html">About</a>
+      <a href="books.html">Bookshelf</a>
+      <a href="blog.html">Blog</a>
+      <a href="prompts.html">Prompts</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
         <i class="fa fa-bars"></i>
       </a>
-      <script type="text/javascript">
-      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-      </script>
     </div>
 
     <div class="booklist">
@@ -45,3 +39,7 @@
         <li></li>
       </ul>
     </div>
+
+    <script src="script.js"></script>
+  </head>
+  <body>

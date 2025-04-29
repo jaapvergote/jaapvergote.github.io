@@ -5,19 +5,25 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta charset="utf-8"/>
 <link href="../style.css" rel="stylesheet"/>
-<title>45. Your circle of competence - Jaap Vergote</title>
-<link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css"/>
-<link href="../jaap-profile.jpg" rel="icon" type="image/png"/>
+<title>posts/2018-07-01_45--Your-circle-of-competence-ddf954366065.html - Jaap Vergote</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="../images/jaap-profile.jpg" rel="icon" type="image/png"/>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌞</text></svg>">
 </head>
 <body>
 <header>
 <div class="topnav" id="myTopnav">
-<a href="../index.html">Home</a>
-<a href="../books.html">Bookshelf</a>
-<a class="active" href="../blog.html">Blog</a>
-<a class="icon" href="javascript:void(0);" onclick="myFunction()">
-<i class="fa fa-bars"></i>
-</a>
+  <a href="../index.html">Home</a>
+  <a href="../now.html">Now</a>
+  <a href="../about.html">About</a>
+  <a href="../books.html">Bookshelf</a>
+  <a class="active" href="../blog.html">Blog</a>
+  <a href="../prompts.html">Prompts</a>
+  <a class="icon" href="javascript:void(0);" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
 </header>
 <div class="container">
@@ -32,15 +38,9 @@
 </div>
 </article>
 </div>
-<script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-    </script>
+<footer style="text-align: center; padding: 2rem 0; font-size: 2em;">
+      🌞
+    </footer>
+<script src="../script.js"></script>
 </body>
 </html> 

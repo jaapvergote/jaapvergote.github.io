@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Prompts - Jaap Vergote</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="bitmoji3.jpeg">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌞</text></svg>">
   </head>
 
   <body>
@@ -28,10 +28,12 @@
 
       <div class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
+        <a href="now.html">Now</a>
+        <a href="about.html">About</a>
         <a href="books.html">Bookshelf</a>
         <a href="blog.html">Blog</a>
         <a class="active" href="prompts.html">Prompts</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
@@ -40,6 +42,7 @@
     <div class="container">
       <div class="prompts-section">
         <h1>AI Prompts</h1>
+        <p class="subtitle">Try them out, see for yourself</p>
         <div class="prompts-list">
           <div class="prompt-card">
             <h3>Enlightened Aliens</h3>
@@ -63,16 +66,9 @@ Highlight both constructive capacities and latent threats, with each observation
         </div>
       </div>
     </div>
-
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-    </script>
+    <footer style="text-align: center; padding: 2rem 0; font-size: 2em;">
+      🌞
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html> 

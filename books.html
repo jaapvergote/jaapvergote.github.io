@@ -28,16 +28,18 @@
 
         <div class="topnav" id="myTopnav">
           <a href="index.html">Home</a>
+          <a href="now.html">Now</a>
+          <a href="about.html">About</a>
           <a class="active" href="books.html">Bookshelf</a>
           <a href="blog.html">Blog</a>
           <a href="prompts.html">Prompts</a>
 
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
             <i class="fa fa-bars"></i>
           </a>
           <script type="text/javascript">
           /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-            function myFunction() {
+            function toggleMenu() {
               var x = document.getElementById("myTopnav");
               if (x.className === "topnav") {
                 x.className += " responsive";
@@ -104,5 +106,9 @@
           </ul>
         </div>
       </div>
+      <footer style="text-align: center; padding: 2rem 0; font-size: 2em;">
+        🌞
+      </footer>
+      <script src="script.js"></script>
     </body>
 </html>
