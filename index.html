@@ -15,72 +15,66 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <title>Jaap Vergote</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="jaap-profile.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌞</text></svg>">
   </head>
 
     <body>
       <header>
         <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
-        <link rel="icon" type="image/png" href="jaap-profile.jpg">
+        <link rel="icon" type="image/png" href="images/jaap-profile.jpg">
         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <div class="topnav" id="myTopnav">
           <a class="active" href="index.html">Home</a>
+          <a href="now.html">Now</a>
+          <a href="about.html">About</a>
           <a href="books.html">Bookshelf</a>
           <a href="blog.html">Blog</a>
           <a href="prompts.html">Prompts</a>
 
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
             <i class="fa fa-bars"></i>
           </a>
-          <script type="text/javascript">
-          /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-            function myFunction() {
-              var x = document.getElementById("myTopnav");
-              if (x.className === "topnav") {
-                x.className += " responsive";
-              } else {
-                x.className = "topnav";
-              }
-            }
-          </script>
         </div>
 
       </header>
     <div class="container">
-      <!-- Profile Section -->
-      <div class="profile-section">
-        <img src="headshotJaap2.png" class="headshot" alt="Jaap Vergote">
-        <h1>Hey, I'm <span style="color: #0C6ED7">Jaap</span> <span style="color: #FF8552">Vergote</span>!</h1>
-        <div class="social-links">
-          <h2>Find me on</h2>
-          <ul class="social-icons">
-            <li><a href="http://www.medium.com/@Jaapvergote" target="_blank"><img src='medium.svg' /></a></li>
-            <li><a href="http://www.angel.co/vergote-jaap-gmail-com" target="_blank"><img src='angellist.svg' /></a></li>
-            <li><a href="https://www.producthunt.com/@jaap_vergote" target="_blank"><img src='producthunt.svg' /></a></li>
-            <li><a href="https://www.linkedin.com/in/jaapvergote" target="_blank"><img src='linkedin.svg' /></a></li>
-            <li><a href="https://github.com/jaapvergote" target="_blank"><img src='github.svg' /></a></li>
-          </ul>
-          <h2>Reach out via</h2>
-          <ul class="social-icons">
-            <li><a href="mailto:vergote.jaap@gmail.com"><img src='gmail.svg' /></a></li>
-            <li><a href="https://calendly.com/jaapvergote" target="_blank"><img src='calendly.png' /></a></li>
-          </ul>
-        </div>
+      <div class="profile-content">
+        <h1>Jaap Vergote</h1>
+        <p></p>
+        
+        <ul class="social-icons">
+          <li><a href="https://twitter.com/jaapvergote" target="_blank"><img src="images/x.svg" alt="X (Twitter)"></a></li>
+          <li><a href="https://github.com/jaapvergote" target="_blank"><img src="images/github-mark.svg" alt="GitHub"></a></li>
+          <li><a href="https://www.linkedin.com/in/jaapvergote/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
+        </ul>
+      </div>
+      
+      <div class="profile-image">
+        <img src="images/jaap.jpg" alt="Jaap Vergote" class="headshot">
       </div>
 
-      <!-- Highlights Section -->
-      <div class="highlights-section">
-        <h2>What I'm working on</h2>
-        <p><a href="https://upsellplus.com/" target="_blank">UpsellPlus</a> - Founder. Revenue optimization engine for Shopify Plus stores (2022)</p>
-        <p><a href="https://viabill.com/us/" target="_blank">Viabill</a> - Head of Sales (2019)</p>
-        <p><a href="https://www.go-campo.com/" target="_blank">Campo</a> - Co-Founder (2017)</p>
-        <p><a href="https://www.showpad.com/" target="_blank">Showpad</a> - B2B sales enablement platform. Sales (2015)</p>
-      </div>
+      <div class="content-section">
+        <h2>Me in 10 seconds</h2>
+        <p>I'm a <a href="posts/2018-11-22_Technology-498da4a784d4.html" target="_blank">philosopher</a> with a <a href="posts/2018-06-06_22--How-to-get-rich--without-getting-lucky--c3310b632f0b.html" target="_blank">bank account</a>. A competitive cyclist. I enjoy stoicism and love <a href="posts/2018-06-22_36--Freedom-f298067f86de.html" target="_blank">freedom</a>.</p>
+        <p>I like doing <a href="posts/2018-06-18_32--Self-discipline-90f3c933cd7c.html" target="_blank">hard things</a>, taking <a href="posts/2018-10-27_64--Asymmetric-opportunities-324a09c1ac0a.html" target="_blank">risks</a>, thinking deeply, and solving problems with software.</p>
+        <p>Belgian native, I now live in Brooklyn.</p>
 
-      <div style="text-align: center; margin-top: 40px; font-size: 2em;">🌞</div>
+        <h2>Me in 10 minutes?</h2>
+        <p>See my <a href="about.html">"about" page</a>.</p>
+
+        <h2>What am I doing now?</h2>
+        <p>See my <a href="now.html">"now" page</a>.</p>
+
+        <h2>Contact me</h2>
+        <p>If you want to have a conversation, <a href="mailto:vergote.jaap@gmail.com">say hello</a></p>
+      </div>
     </div>
+    <footer style="text-align: center; padding: 2rem 0; font-size: 2em;">
+      🌞
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
