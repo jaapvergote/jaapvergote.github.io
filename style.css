@@ -10,7 +10,7 @@
     border-radius: 50%;
     background-clip: padding-box;
     background-size: cover;
-    background-position: center center;
+    background-position: center 50%;
     display: inline-block;
 }
 
