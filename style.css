@@ -575,20 +575,17 @@ a:hover {
 
 /* Now Section */
 .now-section {
-  width: 100%;
   max-width: 800px;
-  margin: 0;
+  margin: 0 auto;
+  padding: 0 20px;
   text-align: left;
 }
 
 .now-section h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
   text-align: left;
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  font-weight: normal;
-  font-size: 2rem;
-  color: #333333;
-  width: 100%;
 }
 
 .now-section .highlights-section {
@@ -596,9 +593,10 @@ a:hover {
 }
 
 .now-section .highlights-section p {
-  margin: 1.5rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
   text-align: left;
-  color: #333333;
 }
 
 .now-section .highlights-section a {
@@ -610,4 +608,26 @@ a:hover {
 
 .now-section .highlights-section a:hover {
   border-color: #000000;
+}
+
+.content-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.content-section h1 {
+  text-align: left;
+  margin-bottom: 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 2.5em;
+  color: #333333;
+}
+
+.content-section p {
+  margin-bottom: 40px;
+  line-height: 1.6;
 }
