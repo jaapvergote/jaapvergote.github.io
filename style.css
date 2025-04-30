@@ -45,7 +45,7 @@ body {
 .container {
   max-width: 800px;
   margin: 4rem auto;
-  padding: 0;
+  padding: 0 20px;
   width: 100%;
 }
 
@@ -571,4 +571,43 @@ a:hover {
 
 .prompt-card .copy-button:hover i {
   color: #007bff;
+}
+
+/* Now Section */
+.now-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0;
+  text-align: left;
+}
+
+.now-section h1 {
+  text-align: left;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #333333;
+  width: 100%;
+}
+
+.now-section .highlights-section {
+  text-align: left;
+}
+
+.now-section .highlights-section p {
+  margin: 1.5rem 0;
+  text-align: left;
+  color: #333333;
+}
+
+.now-section .highlights-section a {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #cccccc;
+  transition: border-color 0.3s ease;
+}
+
+.now-section .highlights-section a:hover {
+  border-color: #000000;
 }
