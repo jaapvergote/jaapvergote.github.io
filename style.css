@@ -631,3 +631,10 @@ a:hover {
   margin-bottom: 40px;
   line-height: 1.6;
 }
+
+/* Responsive blog post images */
+.graf-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
