@@ -638,3 +638,36 @@ a:hover {
   height: auto;
   display: block;
 }
+
+/* Tweets gallery */
+.tweets-gallery {
+  width: 100%;
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 20px;
+}
+
+.tweets-gallery h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.tweets-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.tweets-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+@media screen and (max-width: 600px) {
+  .tweets-grid {
+    grid-template-columns: 1fr;
+  }
+}
